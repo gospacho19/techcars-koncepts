@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="lv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Tech Cars · auto apkope un remonts · Slokas iela 69, Jūrmala</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme:light;
+  --coal:#1b1d20; --coal-2:#26292d; --steel:#8b9198; --line:#34383d; --paper:#f4f4f2; --ink:#16181a; --mut:#5d636a; --rule:#dcdcd8;
+  --orange:#e8563a; --orange-2:#c9432a;
+  --cond:"Barlow Condensed","Arial Narrow",Impact,sans-serif; --sans:"Barlow",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  --edge:max(28px,calc((100vw - 1104px)/2));
+}
+*{box-sizing:border-box}
+html{background:var(--paper)}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit} img{display:block;max-width:100%;height:auto}
+.wrap{max-width:1160px;margin:0 auto;padding:0 28px}
+.tag{font:600 .74rem/1.3 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--steel)}
+h2{margin:0 0 .3em;font:700 clamp(2.4rem,5vw,3.8rem)/.98 var(--cond);letter-spacing:.01em;text-transform:uppercase}
+.notice{background:#000;color:#b9bec4;font:500 .74rem/1.4 var(--sans);text-align:center;padding:8px 20px}.notice b{color:#fff}
+
+.top{background:var(--coal);color:#fff}
+.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;padding-top:16px;padding-bottom:16px}
+.word{font:700 1.7rem/1 var(--cond);letter-spacing:.12em;text-transform:uppercase}
+.word i{font-style:normal;color:var(--orange)}
+.top a{text-decoration:none;font:600 1.15rem/1 var(--cond);letter-spacing:.08em}
+
+/* hero: their workshop, and a road sign pointing at it */
+.hero{position:relative;background:var(--coal);color:#fff;overflow:hidden}
+.hero img{width:100%;height:min(80vh,760px);object-fit:cover;object-position:50% 55%;opacity:.78}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(18,20,22,.86) 0%,rgba(18,20,22,.62) 38%,rgba(18,20,22,.12) 72%,rgba(18,20,22,0) 100%)}
+.hero .in{position:absolute;inset:0;z-index:1;display:flex;flex-direction:column;justify-content:center;padding:0 var(--edge)}
+.arrow{display:inline-flex;align-items:center;align-self:flex-start;gap:.7em;background:var(--orange);color:#fff;font:700 1.05rem/1 var(--cond);letter-spacing:.16em;text-transform:uppercase;padding:.7em 2.4em .7em 1.1em;margin:0 0 1.6em;
+  clip-path:polygon(0 0,calc(100% - 26px) 0,100% 50%,calc(100% - 26px) 100%,0 100%)}
+.hero h2{font-size:clamp(3.2rem,8.2vw,7rem);line-height:.92;margin:0 0 .3em}
+.hero h2 span{display:block}
+.hero p{margin:0 0 1.7em;max-width:30em;font-size:1.12rem;color:#e3e6e9}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-block;text-decoration:none;font:700 1.05rem/1 var(--cond);letter-spacing:.14em;text-transform:uppercase;padding:1em 1.5em;background:var(--orange);color:#fff;transition:background .18s}
+.btn:hover{background:var(--orange-2)} .btn.line{background:transparent;border:2px solid #fff}
+
+/* the thing nobody can find: they come to you */
+.out{background:var(--orange);color:#fff}
+.out .wrap{display:grid;grid-template-columns:6fr 6fr;gap:56px;align-items:center;padding-top:64px;padding-bottom:64px}
+.out h2{font-size:clamp(3rem,7vw,5.6rem)}
+.out p{margin:0 0 1.2em;font-size:1.12rem;max-width:30em}
+.out blockquote{margin:0;padding:22px 26px;background:rgba(0,0,0,.16);font-size:1.05rem;font-style:italic}
+.out cite{display:block;margin-top:.7em;font-style:normal;color:#ffe3dc} .out .tag{color:#ffd9d0}
+.out .btn{background:var(--coal)}
+
+/* what they do: three, each with its proof */
+.jobs{padding:88px 0 72px}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:1.8em}
+.job{background:#fff;border-top:4px solid var(--orange);display:flex;flex-direction:column}
+.job img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.job .q{aspect-ratio:4/3;background:var(--coal);color:#fff;display:flex;flex-direction:column;justify-content:center;padding:26px;font-size:1.06rem;font-style:italic}
+.job .q cite{margin-top:.8em;font-style:normal}
+.job div.b{padding:22px 24px 26px}
+.job h3{margin:0 0 .25em;font:700 1.9rem/1 var(--cond);letter-spacing:.02em;text-transform:uppercase}
+.job p{margin:0;color:var(--mut);font-size:.98rem}
+
+/* composer */
+.ask{background:var(--coal);color:#e8eaec;padding:88px 0}
+.ask h2{color:#fff} .ask .intro{margin:0 0 2.2em;color:#aab0b6;max-width:34em}
+.ask .grid{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:start}
+.ask .tag{display:block;margin:0 0 .6em}
+.rowin{display:grid;grid-template-columns:2fr 1fr;gap:12px}
+.ask input,.ask textarea{width:100%;background:var(--coal-2);border:1px solid var(--line);color:#fff;font:400 1rem/1.4 var(--sans);padding:.8em .95em;margin:0 0 1.5em}
+.ask textarea{min-height:80px;resize:vertical}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 1.6em}
+.chips button{border:1px solid var(--line);background:var(--coal-2);color:#e8eaec;font:500 .95rem/1 var(--sans);padding:.7em 1em;cursor:pointer}
+.chips button[aria-pressed=true]{background:var(--orange);border-color:var(--orange);color:#fff}
+.tow{display:flex;gap:.7em;align-items:center;margin:0 0 1.7em;padding:14px 16px;border:1px dashed var(--orange);cursor:pointer}
+.tow input{width:20px;height:20px;margin:0;accent-color:var(--orange)}
+.preview{background:var(--paper);color:var(--ink);padding:26px 28px;border-top:4px solid var(--orange)}
+.preview .tag{color:var(--mut)} .preview pre{margin:.2em 0 1.3em;white-space:pre-wrap;font:400 1rem/1.6 var(--sans)}
+.send{display:flex;gap:10px;flex-wrap:wrap} .send a{text-decoration:none;font:700 .95rem/1 var(--cond);letter-spacing:.14em;text-transform:uppercase;padding:.95em 1.2em;border:2px solid var(--ink)} .send a.wa{background:var(--ink);color:#fff}
+.tiny{margin:1.1em 0 0;font-size:.8rem;color:var(--mut)}
+
+/* voice */
+.voice{padding:80px 0 64px}
+.q3{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:1.6em}
+.q3 div{border-left:4px solid var(--orange);padding:4px 0 4px 20px}
+.q3 p{margin:0 0 .5em;font-size:1.06rem}
+.score{margin-top:1.8em}
+
+/* find the sign */
+.visit{background:#fff;padding:88px 0 44px}
+.visit .cols{display:grid;grid-template-columns:1fr 1fr 1.1fr;gap:52px;align-items:start;margin-top:1.4em}
+.hours{list-style:none;margin:.5em 0 0;padding:0} .hours li{display:flex;justify-content:space-between;gap:12px;padding:.55em 0;border-top:1px solid var(--rule)} .hours li:last-child{border-bottom:1px solid var(--rule)} .hours li span:last-child{color:var(--mut)}
+.addr .big{margin:.2em 0 .1em;font:700 2.1rem/1.05 var(--cond);text-transform:uppercase;letter-spacing:.02em} .addr p{margin:0 0 .4em} .addr a{color:var(--orange-2);font-weight:600}
+.visit figure{margin:0} .visit figure img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 30%} .visit figcaption{margin-top:10px}
+.next{margin:60px 0 0;padding:22px 26px;background:var(--paper);border-left:4px solid var(--orange)} .next p{margin:.5em 0 0;color:#33373b}
+footer{background:#fff;padding:28px 0 46px;color:var(--mut);font:400 .82rem/1.7 var(--sans)} footer b{color:var(--ink)}
+.sticky{display:none}
+@media(max-width:860px){
+  .top a{display:none}
+  /* phone: the photo shown whole and bright, the words on coal beneath it */
+  .hero img{height:auto;aspect-ratio:5/4;opacity:1;object-position:50% 50%}
+  .hero:after{inset:0 0 auto 0;height:0;padding-top:80%;background:linear-gradient(180deg,rgba(18,20,22,.35) 0%,rgba(18,20,22,0) 30%,rgba(18,20,22,0) 72%,rgba(24,26,29,1) 100%);pointer-events:none}
+  .hero .in{position:relative;inset:auto;padding:4px 22px 40px;margin-top:-34px}
+  .hero h2{font-size:clamp(3rem,15vw,4.2rem)}
+  .out .wrap,.three,.ask .grid,.q3,.visit .cols{grid-template-columns:1fr;gap:30px}
+  .jobs,.ask,.voice,.visit{padding-top:58px;padding-bottom:52px}
+  body{padding-bottom:60px}
+  .sticky{display:flex;position:fixed;inset:auto 0 0 0;z-index:9;justify-content:center;background:var(--orange);color:#fff;text-decoration:none;padding:16px;font:700 1.15rem/1 var(--cond);letter-spacing:.14em;text-transform:uppercase}
+}
+/* pass 2026-09-19: phone first screen — photo at 42vh, headline on the first screen, the sticky bar is the one action */
+@media(max-width:860px){
+  .hero img{aspect-ratio:auto;height:42vh} .hero:after{padding-top:0;height:42vh}
+  .hero .in{padding:0 22px 30px;margin-top:-30px} .hero h2{font-size:clamp(2.6rem,12.5vw,3.6rem)} .hero p{margin-bottom:0}
+  .hero .cta{display:none}
+  .jobs,.ask,.voice,.visit{padding-top:40px;padding-bottom:40px}
+}
+</style>
+</head>
+<body>
+<div class="notice"><b>Nikita</b> · Nesaistošs dizaina priekšlikums. Šī nav servisa oficiālā mājaslapa.</div>
+<div class="top"><div class="wrap"><span class="word">Tech <i>/</i> Cars</span><a href="tel:+37127881143">27 881 143</a></div></div>
+
+<div class="hero">
+  <picture><source media="(max-width:860px)" srcset="img/workshop-m.jpg"><img src="img/workshop.jpg" alt="Tech Cars darbnīca Jūrmalā" width="2000" height="1500" fetchpriority="high"></picture>
+  <div class="in">
+    <span class="arrow">Slokas iela 69 · Jūrmala</span>
+    <h2><span>Piebrauc.</span><span>Pacelsim.</span><span>Salabosim.</span></h2>
+    <p>Auto apkope un remonts Jūrmalā. Klienti par mums raksta: „piebraucu, pacēla, pieskrūvēja — ļoti operatīvi un bez vaimanāšanas.”</p>
+    <div class="cta"><a class="btn" href="#pieteikt">Pieteikt remontu</a><a class="btn line" href="tel:+37127881143">Zvanīt 27 881 143</a></div>
+  </div>
+</div>
+
+<section class="out"><div class="wrap">
+  <div>
+    <span class="tag">Izbraukuma serviss</span>
+    <h2>Nebrauc? Atbrauksim.</h2>
+    <p>Auto nestartējas pie mājas vai stāvvietā? Atbraucam ar būsteri un diagnostiku uz vietas — Jūrmalā un tuvākajā apkārtnē.</p>
+    <a class="btn" href="tel:+37127881143">Zvanīt tagad</a>
+  </div>
+  <blockquote>„Paldies Techcars par izcilu ‚izbraukuma servisu‘ — piebrauca smaidīgs puisis pie mājas ar būsteri un ‚pielaida kā spičku‘ manu auto.”<cite class="tag">Google atsauksme</cite></blockquote>
+</div></section>
+
+<main>
+<section class="jobs"><div class="wrap">
+  <span class="tag">Ko darām</span>
+  <h2>Trīs lietas. Kārtīgi.</h2>
+  <div class="three">
+    <div class="job"><img src="img/rig.jpg" alt="Riteņu ģeometrijas stends darbnīcā" loading="lazy" width="1200" height="900"><div class="b"><h3>Apkope un remonts</h3><p>Gaišā, tīrā darbnīcā ar pacēlājiem — no eļļas maiņas līdz ritošajai daļai.</p></div></div>
+    <div class="job"><div class="q">„Izpalīdzēja uz sitiena, pieslēdzot PC un atrodot vainu…”<cite class="tag">Google atsauksme</cite></div><div class="b"><h3>Datordiagnostika</h3><p>Deg lampiņa? Pieslēdzam, nolasām, pasakām, kas par vainu — un cik tas maksās.</p></div></div>
+    <div class="job"><img src="img/ac.jpg" alt="Kondicioniera apkope" loading="lazy" width="1200" height="900"><div class="b"><h3>Kondicionieri</h3><p>Uzpilde un apkope ar stacionāro iekārtu — pirms vasaras vai kad vairs nedzesē.</p></div></div>
+  </div>
+</div></section>
+
+<section class="ask" id="pieteikt"><div class="wrap">
+  <h2>Pieteikt remontu</h2>
+  <p class="intro">Uzraksti, kas par auto un kas noticis. Atbildēsim ar laiku un aptuvenu cenu — bez gaidīšanas pie telefona.</p>
+  <div class="grid">
+    <div>
+      <span class="tag">Auto</span>
+      <div class="rowin"><input id="car" placeholder="Marka un modelis — piem., VW Golf"><input id="year" inputmode="numeric" placeholder="Gads"></div>
+      <span class="tag">Kas noticis</span>
+      <div class="chips" data-k="issue" data-multi><button>Kārtējā apkope</button><button>Deg lampiņa</button><button>Dīvaina skaņa</button><button>Bremzes</button><button>Kondicionieris</button><button>Nestartējas</button></div>
+      <label class="tow"><input type="checkbox" id="tow"><span><b>Auto nebrauc</b> — vajag izbraukumu</span></label>
+      <span class="tag">Kad der</span>
+      <div class="chips" data-k="day" data-multi><button>P</button><button>O</button><button>T</button><button>C</button><button>Pk</button></div>
+      <span class="tag">Vēl kas</span>
+      <textarea id="note" placeholder="piem., skaņa no priekšas labās puses, kad bremzē"></textarea>
+    </div>
+    <div class="preview">
+      <span class="tag">Ziņa, ko saņems serviss</span>
+      <pre id="msg"></pre>
+      <div class="send"><a class="wa" id="wa" href="#" rel="noopener">Sūtīt WhatsApp</a><a id="mail" href="#">Sūtīt e-pastā</a></div>
+      <p class="tiny">Ziņa top tavā ierīcē — šī lapa neko neglabā un nevienam nesūta tavā vietā.</p>
+    </div>
+  </div>
+</div></section>
+
+<section class="voice"><div class="wrap">
+  <span class="tag">Klienti</span>
+  <h2>Bez vaimanāšanas.</h2>
+  <div class="q3">
+    <div><p>„Lielisks serviss … Vienmēr prieks sadarboties!”</p><span class="tag">Google</span></div>
+    <div><p>„Gaišas, tīras telpas. Atsaucīgi darbinieki.”</p><span class="tag">Google</span></div>
+    <div><p>„Atsaucīgi darbinieki! Izpalīdzēja uz sitiena.”</p><span class="tag">Google</span></div>
+  </div>
+  <p class="tag score">Google · 4,8 no 5 · 95 atsauksmes</p>
+</div></section>
+
+<section class="visit"><div class="wrap">
+  <h2>Meklē šo zīmi.</h2>
+  <div class="cols">
+    <div><span class="tag">Darba laiks</span><ul class="hours"><li><span>Pirmdiena – piektdiena</span><span>09:00 – 18:00</span></li><li><span>Sestdiena, svētdiena</span><span>slēgts</span></li></ul></div>
+    <div class="addr"><span class="tag">Adrese</span><p class="big">Slokas iela 69</p><p>Jūrmala, LV-2015</p><p><a href="https://www.google.com/maps/search/?api=1&query=TechCars+Slokas+iela+69+J%C5%ABrmala" rel="noopener">Atvērt kartē ↗</a></p><p><a href="tel:+37127881143">27 881 143</a> · <a href="tel:+37127881156">27 881 156</a></p><p><a href="mailto:info@techcars.lv">info@techcars.lv</a></p></div>
+    <figure><img src="img/sign.jpg" alt="Tech Cars ceļazīme pie iebrauktuves" loading="lazy" width="1000" height="1250"><figcaption class="tag">Zīme pie iebrauktuves</figcaption></figure>
+  </div>
+  <div class="next"><span class="tag">Ja šis priekšlikums interesē — nākamie soļi</span><p>Pilns pakalpojumu saraksts un cenas, precizētas ar jums · lapa krievu valodā · lapa uz jūsu domēna techcars.lv, kur šobrīd redzama servera noklusējuma lapa vai tukša veidne · pieslēgšana Google kartes ierakstam, kur „vietne” šobrīd ir Facebook.</p></div>
+</div></section>
+</main>
+
+<footer><div class="wrap"><b>Tech Cars · auto apkope un remonts</b> · Slokas iela 69, Jūrmala, LV-2015 · 27 881 143 · info@techcars.lv<br>Fotogrāfijas: Tech Cars (Google Maps) · Dizaina priekšlikums: Nikita · ngoloveckis@gmail.com</div></footer>
+<a class="sticky" href="tel:+37127881143">Zvanīt · 27 881 143</a>
+
+<script>
+const S={issue:[],day:[]};
+document.querySelectorAll('.chips').forEach(g=>g.querySelectorAll('button').forEach(b=>{b.type='button';b.setAttribute('aria-pressed','false');b.onclick=()=>{
+  const k=g.dataset.k,v=b.textContent,on=b.getAttribute('aria-pressed')==='true';b.setAttribute('aria-pressed',String(!on));S[k]=on?S[k].filter(x=>x!==v):[...S[k],v];draw();}}));
+['car','year','note','tow'].forEach(id=>document.getElementById(id).addEventListener('input',draw));
+const DAYS={P:'pirmdien',O:'otrdien',T:'trešdien',C:'ceturtdien',Pk:'piektdien'};
+function draw(){
+  const g=id=>document.getElementById(id),car=g('car').value.trim(),year=g('year').value.trim(),note=g('note').value.trim(),tow=g('tow').checked;
+  const L=['Labdien! Vēlos pieteikt auto remontu.'];
+  L.push('Auto: '+(car||'—')+(year?', '+year+'. g.':''));
+  L.push('Problēma: '+(S.issue.length?S.issue.join(', ').toLowerCase():'—'));
+  if(tow)L.push('AUTO NEBRAUC — vajadzīgs izbraukums.');
+  L.push('Der: '+(S.day.map(x=>DAYS[x]).join(', ')||'jebkura darba diena')+'.');
+  if(note)L.push('Piezīmes: '+note);
+  L.push('Kad varu piebraukt, un cik aptuveni tas maksātu?');
+  const t=L.join('\n');g('msg').textContent=t;
+  g('wa').href='https://wa.me/37127881143?text='+encodeURIComponent(t);
+  g('mail').href='mailto:info@techcars.lv?subject='+encodeURIComponent('Remonta pieteikums')+'&body='+encodeURIComponent(t);
+}
+draw();
+</script>
+</body>
+</html>
